@@ -11,7 +11,7 @@ export CARDANO_NODE_SOCKET_PATH=/home/gabriel/repos/cardano/my-node/db/node.sock
 ```
 ~/Downloads/voter-registration \
   --payment-signing-key payment_ext.skey \
-  --stake-signing-key stake.skey \
+  --stake-signing-key stake_ext.skey \
   --vote-public-key vote_bech32.pub \
   --payment-address "addr_test1qzq0nckg3ekgzuqg7w5p9mvgnd9ym28qh5grlph8xd2z92sj922xhxkn6twlq2wn4q50q352annk3903tj00h45mgfmsu8d9w5" \
   --testnet-magic 1097911063 \
